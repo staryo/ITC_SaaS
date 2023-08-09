@@ -142,23 +142,21 @@
                                 <div class="col bg-white shadow p-2 mb-4 rounded-2">
 
                                     <!--Number of tasks and filter-->
-                                    <div class="row  align-items-center">
+                                    <div class="row align-items-center">
                                         <div class="col-6 text-start p-2 ps-4 pe-4">
                                             8 task completed out of 10
                                         </div>
                                         <div class="col-6 p-2 ps-4 pe-4 text-end">
-                                            <div class="btn-group align-items-center">
-                                                Show:
-                                                <button aria-expanded="false" aria-haspopup="true"
-                                                        class="btn text-info dropdown-toggle" data-toggle="dropdown"
-                                                        type="button">
+                                            <div class="dropdown align-bottom">
+                                                <span class="align-baseline"> Show: </span>
+                                                <button class="btn align-baseline text-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                     This week
                                                 </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">This week</a>
-                                                    <a class="dropdown-item" href="#">Monthly</a>
-                                                    <a class="dropdown-item" href="#">This month</a>
-                                                </div>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item active" href="#">This week</a></li>
+                                                    <li><a class="dropdown-item" href="#">Monthly</a></li>
+                                                    <li><a class="dropdown-item" href="#">This month</a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -341,18 +339,16 @@
                                             <h4>Deals </h4>
                                         </div>
                                         <div class="col-6 p-2 ps-4 pe-4 text-end">
-                                            <div class="btn-group align-items-center">
-                                                Show:
-                                                <button aria-expanded="false" aria-haspopup="true"
-                                                        class="btn text-info dropdown-toggle" data-toggle="dropdown"
-                                                        type="button">
+                                            <div class="dropdown align-bottom">
+                                                <span class="align-baseline"> Show: </span>
+                                                <button class="btn align-baseline text-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Monthly
                                                 </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">This week</a>
-                                                    <a class="dropdown-item" href="#">Monthly</a>
-                                                    <a class="dropdown-item" href="#">This month</a>
-                                                </div>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">This week</a></li>
+                                                    <li><a class="dropdown-item active" href="#">Monthly</a></li>
+                                                    <li><a class="dropdown-item" href="#">This month</a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                         <hr class="hr"/>
@@ -372,18 +368,16 @@
                                             <h4>Tasks </h4>
                                         </div>
                                         <div class="col-6 p-2 ps-4 pe-4 text-end">
-                                            <div class="btn-group align-items-center">
-                                                Show:
-                                                <button aria-expanded="false" aria-haspopup="true"
-                                                        class="btn text-info dropdown-toggle" data-toggle="dropdown"
-                                                        type="button">
+                                            <div class="dropdown align-bottom">
+                                                <span class="align-baseline"> Show: </span>
+                                                <button class="btn align-baseline text-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                     This month
                                                 </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">This week</a>
-                                                    <a class="dropdown-item" href="#">Monthly</a>
-                                                    <a class="dropdown-item" href="#">This month</a>
-                                                </div>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">This week</a></li>
+                                                    <li><a class="dropdown-item" href="#">Monthly</a></li>
+                                                    <li><a class="dropdown-item active" href="#">This month</a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                         <hr class="hr"/>
@@ -405,7 +399,6 @@
 
     </div>
 </div>
-<script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="./js/bootstrap.bundle.js"></script>
 </body>
 </html>
