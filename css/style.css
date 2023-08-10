@@ -43,3 +43,9 @@ li.footer {
 .e-mail {
     font-size: 0.8em;
 }
+
+.nav-link {
+    display: flex;
+    height: fit-content;
+    align-content: center
+}
